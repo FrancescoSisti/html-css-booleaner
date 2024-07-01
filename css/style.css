@@ -53,3 +53,23 @@ tr:last-child {
 tr:first-child {
     background-color: rgb(177, 229, 242);
 }
+
+h3 {
+    color: gray;
+}
+
+table {
+    border-spacing: 0;
+}
+
+.table-left {
+    width: 25%;
+}
+
+.table-center {
+    width: 25%;
+}
+
+.table-right {
+    width: 48%;
+}
