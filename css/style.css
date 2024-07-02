@@ -1,5 +1,12 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    border: 2px dashed red;
+    border: 1px dashed red;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -7,8 +14,8 @@ body {
 .banner {
     background-image: url(../img/pattern.png);
     background-color: rgb(78, 160, 255);
-    height: 180px;
-    border: 2px dashed red;
+    border: 1px dashed red;
+    background-image: cover;
 }
 
 h1 {
