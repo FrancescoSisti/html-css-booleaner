@@ -13,7 +13,7 @@
 
 <body>
     <!-- Header with logo and banner -->
-    <header>
+    <header id="main-header">
         <div class="banner">
             <img id="logo" src="img/logo.svg" alt="not-available">
         </div>
@@ -22,16 +22,20 @@
     <main>
         <article>
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners Lee</h1>
-            <div class="subtitle">Scritto da <span id="booleaner">The Booleaner</span></div>
-            <div id="subtitle-date">il 10/10/2020</div>
-            <img src="img/tim-1.jpg" alt="not-available">
-            <img src="img/tim-2.jpg" alt="not-available">
-            <div class="photo-desc">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</div>
-            <div class="photo-desc">2nd Photo: Tim Berners Lee, by Paul Clarke</div>
+            <address class="text-gray">Scritto da <a href="#">The Booleaners</a></address>
+            <time datetime="2020-10-10" class="text-gray">il 10/10/2020</time>
+            <figure>
+                <img src="img/tim-1.jpg" alt="not-available">
+                <img src="img/tim-2.jpg" alt="not-available">
+                <figcaption>
+                    1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen<br>
+                    2nd Photo: Tim Berners Lee, by Paul Clarke
+                </figcaption>
+            </figure>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati quos sapiente dolor
-                alias quia nemo <span class="marked">rem quidem quam aperiam consequuntur perspiciatis
-                    exercitationem</span>
+                alias quia nemo <mark>rem quidem quam aperiam consequuntur perspiciatis
+                    exercitationem</mark>
                 placeat, ut quas
                 eligendi, ab blanditiis voluptatem! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Error facilis, praesentium illo harum delectus quibusdam incidunt recusandae, velit enim eligendi iste,
@@ -89,16 +93,17 @@
                     </tr>
                 </tbody>
             </table>
-            <p>Lorem ipsum dolor sit amet <span class="marked">consectetur adipisicing elit. Odio ut explicabo dolor
-                    possimus</span> ipsam cupiditate eveniet.
+            <p>Lorem ipsum dolor sit amet <mark>consectetur adipisicing elit. Odio ut explicabo dolor
+                    possimus</mark> ipsam cupiditate eveniet.
                 Blanditiis, quis architecto eum corrupti temporibus tenetur ex ipsa eius veniam officiis,
                 quo praesentium
             </p>
         </article>
     </main>
     <!-- Footer with "You might be interested in" section -->
-    <footer>
-    </footer>
+    <aside>
+
+    </aside>
     <!-- End of page -->
 </body>
 
