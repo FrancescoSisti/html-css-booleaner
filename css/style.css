@@ -20,25 +20,32 @@ body {
 
 h1 {
     margin-bottom: 1px;
-    font-size: 30px;
 }
 
 #logo {
-    height: 50px;
+    width: 15%;
     margin-top: 85px;
 }
 
-address {
-    font-style: normal;
-    font-size: 14px;
+.subtitle {
+    color: grey;
 }
 
-figure {
-    margin: 0;
+#booleaner {
+    color: rgb(43, 206, 235);
 }
 
-ul {
-    padding-inline-start: 0;
+#subtitle-date {
+    color: grey;
+    font-size: 12px;
+}
+
+.photo-desc {
+    font-size: 12px;
+}
+
+.marked {
+    background-color: rgb(240, 222, 66);
 }
 
 th {
@@ -59,7 +66,7 @@ h3 {
 }
 
 table {
-    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 .table-left {
